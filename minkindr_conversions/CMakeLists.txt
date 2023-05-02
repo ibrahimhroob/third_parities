@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(minkindr_conversions)
 
+find_package(eigen_conversions REQUIRED)
+
 find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
 
